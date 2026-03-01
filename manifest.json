@@ -1,0 +1,10 @@
+{
+  "id": "my-css",
+  "name": "My CSS",
+  "version": "0.0.1",
+  "minAppVersion": "1.4.0",
+  "description": "Custom Obsidian CSS",
+  "author": "Lloyd Everett",
+  "authorUrl": "https://lloydeverett.com/",
+  "isDesktopOnly": false
+}
