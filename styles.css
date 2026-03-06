@@ -1,10 +1,18 @@
 
-.cm-line[data-task="x"],
-.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent),
-.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent),
-.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent),
-.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent)
+.cm-line[data-task="x"] *,
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) *,
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *,
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *,
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *
 {
-    color: var(--text-muted) !important;
+    color: #636363 !important;
+}
+
+:root, body
+{
+    --my-teal: #0a9396;
+    --checkbox-color: var(--my-teal) !important;
+    --h3-color: var(--my-teal) !important;
+    --interactive-accent: var(--my-teal) !important;
 }
 
