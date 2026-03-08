@@ -16,3 +16,7 @@
     --interactive-accent: var(--my-teal) !important;
 }
 
+.cm-em, .cm-strong {
+    color: #ff82b2 !important;
+}
+
