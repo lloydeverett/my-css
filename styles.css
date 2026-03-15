@@ -3,7 +3,9 @@
 .cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) *,
 .cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *,
 .cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *,
-.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *,
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *,
+.cm-line[data-task="x"] + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) + .cm-line:not([data-task]):has(.cm-indent) *
 {
     color: #636363 !important;
 }
